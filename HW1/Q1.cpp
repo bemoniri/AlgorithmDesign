@@ -74,11 +74,11 @@ long OPT(long start, long end, long pos, long num_sas)
 		
 		long left_num = 0;
 		int i = 0;
-		for( i = 0; i < k - pos; i++){		     // only look in indexes of the input array where there is a chance of finding a tile related to the current stage
-			if(input_array_start [pos + i] <= (end + start - 1) / 2)    left_num++;  // increment if found a sas
+		for(i = 0; i < k; i++){		     // only look in indexes of the input array where there is a chance of finding a tile related to the current stage
+			if(input_array_start [i] <= (end + start - 1) / 2)    left_num++;  // increment if found a sas
 			else break;
 		}
-		long right_cost = OPT((end + start + 1) / 2 , end, i + pos , num_sas - left_num );   // split left (also pass the number of sas - no need to count!)
+		long right_cost = OPT((end + start + 1) / 2 , end, i , num_sas - left_num );   // split left (also pass the number of sas - no need to count!)
 		long left_cost = OPT(start , (end + start - 1) / 2 , pos,  left_num );               // split right (also pass the number of sas)
 		return min(left_cost + right_cost, (end - start + 1) * num_sas * B);                 // Decide what to do in the current stage
 	}
