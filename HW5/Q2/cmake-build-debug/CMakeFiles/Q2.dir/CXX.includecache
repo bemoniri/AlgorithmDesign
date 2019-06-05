@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bemoniri/Course/Algorithm/HW5/Q2/main.cpp
+iostream
+-
+queue
+-
+bits/stdc++.h
+-
+

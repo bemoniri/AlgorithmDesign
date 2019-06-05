@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Q1_cpp.dir/main.cpp.o  -o Q1_cpp 

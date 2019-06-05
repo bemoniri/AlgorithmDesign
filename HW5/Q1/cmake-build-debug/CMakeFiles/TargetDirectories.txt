@@ -1,0 +1,3 @@
+/home/bemoniri/Course/Algorithm/HW5/Q1.cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/bemoniri/Course/Algorithm/HW5/Q1.cpp/cmake-build-debug/CMakeFiles/Q1_cpp.dir
+/home/bemoniri/Course/Algorithm/HW5/Q1.cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
