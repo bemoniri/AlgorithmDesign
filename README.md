@@ -1,4 +1,4 @@
-# AlgorithmDesign
+# Algorithm Design Course - Computer Assignments
 This is the repository for my solutions to the Algorithm Design course's coumputer assignments at Sharif University of Technology. This course was taught by Prof. Saber Salehkaleybar at the Department of Electrical Engineering.
 
 <b>HW1: Introduction<b><br>
