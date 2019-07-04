@@ -1,5 +1,5 @@
 # AlgorithmDesign
-This is the repository for my solutions to the Algorithm Design course coumputer assignments at Sharif University of Technology. This course was taught by Prof. Saber Salehkaleybar at the Department of Electrical Engineering.
+This is the repository for my solutions to the Algorithm Design course's coumputer assignments at Sharif University of Technology. This course was taught by Prof. Saber Salehkaleybar at the Department of Electrical Engineering.
 
 <b>HW1: Introduction<b><br>
 <b>HW2: Divide and Conquer and Greedy Algorithms<b><br>
